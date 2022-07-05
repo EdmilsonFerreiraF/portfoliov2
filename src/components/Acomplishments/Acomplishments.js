@@ -7,7 +7,7 @@ import { AcomplishmentsData } from '../../constants/constants';
 const Acomplishments = () => (
   <Section>
     <SectionTitle>
-      Personal Achievements
+      Conquistas pessoais
     </SectionTitle>
     <Boxes>
       {AcomplishmentsData.map((card, index) => (

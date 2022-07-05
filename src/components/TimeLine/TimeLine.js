@@ -45,10 +45,10 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>
-        About Me
+        Sobre Mim
       </SectionTitle>
       <SectionText>
-        My purpose is to make the difference by coding through technology
+        Meu propósito é fazer a diferença e ajudar pessoas por meio do código
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

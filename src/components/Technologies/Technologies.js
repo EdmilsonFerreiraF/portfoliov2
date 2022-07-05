@@ -8,19 +8,18 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>
-      Technologies
+      Tecnologias
     </SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From back-end to design
+      Já trabalhei com uma variedade de tecnologias do desenvolvimento web
     </SectionText>
     <List>
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Front end</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Experiência com <br />
             React.js
           </ListParagraph>
         </ListContainer>
@@ -28,10 +27,10 @@ const Technologies = () => (
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Backend-end</ListTitle>
+          <ListTitle>Backend end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Experiência com <br />
+            NodeJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,8 +39,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experiência com <br />
+            Ferramentas como o Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -1,53 +1,43 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'Lama Music',
+    description: "🚀 Um app para você enviar e ouvir as suas músicas favoritas",
     image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
+    tags: ['React', 'NodeJS', 'Typescript', 'HTML', 'CSS'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
   {
     title: 'E-Commerce',
-    description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description: "Adicione, gerencie seus produtos e venda-os facilmente nesta loja virtual com integração com o Pague Seguro",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    tags: ['NextJS', 'NodeJS', 'Typescript', 'Strapi'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: 'Lama Social',
+    description: "Conecte-se com outras pessoas, veja seus perfis, siga, faça amizades, crie e interaja em outros posts no Lama Social",
     image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
+    tags: ['React', 'NodeJS', 'Typescript'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+  }
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Comecei minha jornada', },
+  { year: 2019, text: 'Trabalhei como programador web', },
+  { year: 2020, text: 'Concluí diversos projetos e cursos', },
+  { year: 2021, text: 'Me formei como desenvolvedor full stack na Labenu', },
 ];
 
 export const AcomplishmentsData = [
-  { number: 20, text: 'Open Source Projects' },
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 60, text: 'Projetos no Github' },
+  { number: 30, text: 'Frontend', },
+  { number: 30, text: 'Backend', },
+  { number: 1, text: 'Loja virtual', }
 ]

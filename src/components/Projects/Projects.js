@@ -33,10 +33,10 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={visit}>
-                Code
+                Código
               </ExternalLinks>
               <ExternalLinks href={source}>
-                Source
+                Fonte
               </ExternalLinks>
             </UtilityList>
           </BlogCard>
