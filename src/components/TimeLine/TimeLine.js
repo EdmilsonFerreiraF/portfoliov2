@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 

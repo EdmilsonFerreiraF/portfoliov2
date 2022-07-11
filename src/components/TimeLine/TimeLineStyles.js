@@ -11,6 +11,7 @@ export const CarouselContainer = styled.ul`
   /* overflow-x: hidden; */
 
   margin-left: 32px;
+
   &:first-of-type{
     margin-left: 0px;
   }
@@ -18,7 +19,8 @@ export const CarouselContainer = styled.ul`
   margin-bottom: 80px;
 
   //remove scrollbar
-  scrollbar-width: none;  
+  scrollbar-width: none;
+
    &::-webkit-scrollbar {
      display: none;
    }

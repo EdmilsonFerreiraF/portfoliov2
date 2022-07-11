@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  display: ${(props) => props.grid ? "grid" : "flex" };
-  flex-direction: ${(props) => props.row ? "row" : "column" };
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  display: ${(props) => props.grid ? "grid" : "flex"};
+  flex-direction: ${(props) => props.row ? "row" : "column"};
+  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
   margin: 0 auto;
   max-width: 1040px;
   box-sizing: content-box;
@@ -17,7 +17,7 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -77,16 +77,15 @@ export const SectionText = styled.p`
 `
 
 export const SectionDivider = styled.div`
-
   width: 64px;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
-  background: ${(props) => props.colorAlt ? 
+  background: ${(props) => props.colorAlt ?
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
-    margin: ${(props) => props.divider ? "4rem 0" : "" };
+  margin: ${(props) => props.divider ? "4rem 0" : ""};
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
@@ -105,7 +104,7 @@ export const SectionSubText = styled.p`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
 
-@media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
     font-size: 16px;
     line-height: 25px;
@@ -131,6 +130,7 @@ export const SecondaryBtn = styled.button`
   margin-bottom: 80px;
   cursor: pointer;
   transition: 0.4s ease;
+
   &:focus {
     outline: none;
   }
@@ -222,9 +222,11 @@ export const ButtonFront = styled.button`
   &:hover {
     opacity: 0;
   }
+
   &:focus {
     outline: none;
   }
+
   &:active {
     opacity: 1;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
@@ -260,8 +262,8 @@ export const LinkContainer = styled.div`
 
   @media ${(props) => props.theme.breakpoints.md} {
     margin-left: ${({ large }) => large ? '16px' : '8px'};
-
   }
+  
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-left: ${({ large }) => large ? '0' : '8px'};
   }
