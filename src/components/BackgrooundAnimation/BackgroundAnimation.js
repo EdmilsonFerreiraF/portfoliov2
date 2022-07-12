@@ -1,6 +1,8 @@
 import React from 'react';
 import AnimatedElipse from '../AnimatedElipse/AnimatedElipse';
 import AnimatedPath from '../AnimatedPath/AnimatedPath';
+import LinearGradient from '../LinearGradient/LinearGradient';
+import RadialGradient from '../RadialGradient/RadialGradient';
 
 const BackgroundAnimation = () => (
   <div>
@@ -78,138 +80,7 @@ const BackgroundAnimation = () => (
       <AnimatedPath attributes={["M476.171 362.952L450.417 337.168", "translate(-476.525 -363.313) rotate(-45 476.171 362.952)",
         "url(#paint11_linear)"]} animate={["12s", "indefinite", "auto", "4"]} mpath="#path_0" />
       <defs>
-        <radialGradient
-          id="paint0_radial"
-          cx="0"
-          cy="0"
-          r="1"
-          gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(301 301) rotate(90) scale(300)"
-        >
-          <stop offset="0.333333" stopColor="#FBFBFB" />
-          <stop offset="1" stopColor="white" stopOpacity="0" />
-        </radialGradient>
-        <radialGradient
-          id="paint1_radial"
-          cx="0"
-          cy="0"
-          r="1"
-          gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(301 301) rotate(90) scale(300)"
-        >
-          <stop offset="0.333333" stopColor="#FBFBFB" />
-          <stop offset="1" stopColor="white" stopOpacity="0" />
-        </radialGradient>
-        <radialGradient
-          id="paint2_radial"
-          cx="0"
-          cy="0"
-          r="1"
-          gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(301 301) rotate(90) scale(300)"
-        >
-          <stop offset="0.333333" stopColor="#FBFBFB" />
-          <stop offset="1" stopColor="white" stopOpacity="0" />
-        </radialGradient>
-        <linearGradient
-          id="paint3_linear"
-          x1="295.043"
-          y1="193.116"
-          x2="269.975"
-          y2="218.154"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#945DD6" />
-          <stop offset="1" stopColor="#945DD6" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint4_linear"
-          x1="476.529"
-          y1="363.31"
-          x2="451.461"
-          y2="338.272"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#945DD6" />
-          <stop offset="1" stopColor="#945DD6" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint5_linear"
-          x1="382.168"
-          y1="155.027"
-          x2="357.1"
-          y2="129.989"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint6_linear"
-          x1="333.309"
-          y1="382.693"
-          x2="358.376"
-          y2="357.655"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint7_linear"
-          x1="165.54"
-          y1="93.9578"
-          x2="140.472"
-          y2="118.996"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint8_linear"
-          x1="414.367"
-          y1="301.156"
-          x2="439.435"
-          y2="276.118"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#13ADC7" />
-          <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint9_linear"
-          x1="515.943"
-          y1="288.238"
-          x2="541.339"
-          y2="291.454"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#13ADC7" />
-          <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint10_linear"
-          x1="117.001"
-          y1="230.619"
-          x2="117.36"
-          y2="258.193"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#945DD6" />
-          <stop offset="1" stopColor="#945DD6" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint11_linear"
-          x1="476.529"
-          y1="363.31"
-          x2="451.461"
-          y2="338.272"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#13ADC7" />
-          <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
-        </linearGradient>
+        <RadialGradient attributes={["paint0_radial", "0", "0", "1", "userSpaceOnUse", "translate(301 301) rotate(90) scale(300)",]} stops={[["#FBFBFB", , "0.333333"], ["white"]]} /> <RadialGradient attributes={["paint1_radial", "0", "0", "1", "userSpaceOnUse", "translate(301 301) rotate(90) scale(300)",]} stops={[["#FBFBFB", , "0.333333"], ["white"]]} /> <RadialGradient attributes={["paint2_radial", "0", "0", "1", "userSpaceOnUse", "translate(301 301) rotate(90) scale(300)",]} stops={[["#FBFBFB", , "0.333333"], ["white"]]} /> <LinearGradient attributes={["paint3_linear", "295.043", "193.116", "269.975", "218.154", "userSpaceOnUse",]} stops={[["#945DD6"], ["#945DD6"]]} /> <LinearGradient attributes={["paint4_linear", "476.529", "363.31", "451.461", "338.272", "userSpaceOnUse",]} stops={[["#945DD6"], ["#945DD6"]]} /> <LinearGradient attributes={["paint5_linear", "382.168", "155.027", "357.1", "129.989", "userSpaceOnUse",]} stops={[["#F46737"], ["#F46737"]]} /> <LinearGradient attributes={["paint6_linear", "333.309", "382.693", "358.376", "357.655", "userSpaceOnUse",]} stops={[["#F46737"], ["#F46737"]]} /> <LinearGradient attributes={["paint7_linear", "165.54", "93.9578", "140.472", "118.996", "userSpaceOnUse",]} stops={[["#F46737"], ["#F46737"]]} /> <LinearGradient attributes={["paint8_linear", "414.367", "301.156", "439.435", "276.118", "userSpaceOnUse",]} stops={[["#13ADC7"], ["#13ADC7"]]} /> <LinearGradient attributes={["paint9_linear", "515.943", "288.238", "541.339", "291.454", "userSpaceOnUse",]} stops={[["#13ADC7"], ["#13ADC7"]]} /> <LinearGradient attributes={["paint10_linear", "117.001", "230.619", "117.36", "258.193", "userSpaceOnUse",]} stops={[["#945DD6"], ["#945DD6"]]} /> <linearGradient id="paint11_linear" x1="476.529" y1="363.31" x2="451.461" y2="338.272" gradientUnits="userSpaceOnUse" > <stop stopColor="#13ADC7" /> <stop stopColor="#13ADC7" stopOpacity="0" offset="1" /> </linearGradient> <LinearGradient attributes={["paint11_linear", "476.529", "363.31", "451.461", "338.272", "userSpaceOnUse",]} stops={[["#13ADC7"], ["#13ADC7"]]} />
       </defs>
     </svg>
   </div>
