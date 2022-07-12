@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 
 import { TimeLineData } from '../../constants/constants';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import CarouselNavigation from '../CarouselNavigation/CarouselNavigation';
+import { CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -101,19 +102,7 @@ const Timeline = () => {
           ))}
         </>
       </CarouselContainer>
-      <CarouselButtons>
-        {TimeLineData.map((item, index) => (
-          <CarouselButton
-            key={index}
-            index={index}
-            active={activeItem}
-            onClick={(e) => handleClick(e, index)}
-            type="button"
-          >
-            <CarouselButtonDot active={activeItem} />
-          </CarouselButton>
-        ))}
-      </CarouselButtons>
+      <CarouselNavigation activeItem={activeItem} handleClick={handleClick} />
       <SectionDivider />
     </Section>
   );
