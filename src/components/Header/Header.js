@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import SocialMedias from '../SocialMedias/SocialMedias';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, Span } from './HeaderStyles';
 
 const Header = () => (
   <Container>
@@ -33,15 +33,7 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/edmilsonferreiraf">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://linkedin.com/in/edmilson-filho">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
+      <SocialMedias />
     </Div3>
   </Container>
 );

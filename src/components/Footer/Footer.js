@@ -2,6 +2,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
+import SocialMedias from '../SocialMedias/SocialMedias';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
@@ -31,15 +32,7 @@ const Footer = () => {
             Inovando um projeto por vez
           </Slogan>
         </CompanyContainer>
-        <SocialIcons href="https://github.com/edmilsonferreiraf">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://linkedin.com/in/edmilson-filho">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://instagram.com">
-          <AiFillInstagram size="3rem" />
-        </SocialIcons>
+        <SocialMedias />
       </SocialIconsContainer>
     </FooterWrapper>
   );
