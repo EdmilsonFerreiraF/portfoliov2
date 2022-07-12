@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedElipse from '../AnimatedElipse/AnimatedElipse';
 
 const BackgroundAnimation = () => (
   <div>
@@ -27,44 +28,16 @@ const BackgroundAnimation = () => (
           id="path_2"
         />
       </g>
-      <ellipse
-        cx="295.027"
-        cy="193.118"
-        transform="translate(-295.027 -193.118)"
-        rx="1.07306"
-        ry="1.07433"
-        fill="#945DD6"
-      >
-        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
-          <mpath xlinkHref="#path_2" />
-        </animateMotion>
-      </ellipse>
-      <path
-        d="M294.685 193.474L268.932 219.258"
-        transform="translate(-294.685 -193.474) rotate(45 294.685 193.474)"
-        stroke="url(#paint3_linear)"
-      >
-        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
-          <mpath xlinkHref="#path_2" />
-        </animateMotion>
-      </path>
-      <ellipse
-        cx="295.027"
-        cy="193.118"
-        transform="translate(-295.027 -193.118)"
-        rx="1.07306"
-        ry="1.07433"
-        fill="#46737"
-      >
-        <animateMotion
-          dur="5s"
-          begin="1"
-          repeatCount="indefinite"
-          rotate="auto"
-        >
-          <mpath xlinkHref="#path_2" />
-        </animateMotion>
-      </ellipse>
+      <AnimatedElipse
+        attributes={[
+          "295.027", "193.118", "translate(-295.027 -193.118)", "1.07306", "1.07433", "#945DD6",]} animate={["10s", "indefinite", "auto"]}
+        mpath="#path_2"
+      />
+      <AnimatedElipse
+        attributes={[
+          "295.027", "193.118", "translate(-295.027 -193.118)", "1.07306", "1.07433", "#46737",]} animate={["5s", "indefinite", "auto", "1",]}
+        mpath="#path_2"
+      />
       <path
         d="M294.685 193.474L268.932 219.258"
         transform="translate(-294.685 -193.474) rotate(45 294.685 193.474)"
@@ -79,18 +52,11 @@ const BackgroundAnimation = () => (
           <mpath xlinkHref="#path_2" />
         </animateMotion>
       </path>
-      <ellipse
-        cx="476.525"
-        cy="363.313"
-        rx="1.07433"
-        ry="1.07306"
-        transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
-        fill="#945DD6"
-      >
-        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
-          <mpath xlinkHref="#path_0" />
-        </animateMotion>
-      </ellipse>
+      <AnimatedElipse
+        attributes={[
+          "476.525", "363.313", "1.07433", "1.07306",
+          "translate(-476.525 -363.313) rotate(90 476.525 363.313)", "#945DD6",]} animate={["10s", "indefinite", "auto",]} mpath="#path_0"
+      />
       <path
         d="M476.171 362.952L450.417 337.168"
         transform="translate(-476.525 -363.313) rotate(-45 476.171 362.952)"
@@ -100,23 +66,11 @@ const BackgroundAnimation = () => (
           <mpath xlinkHref="#path_0" />
         </animateMotion>
       </path>
-      <ellipse
-        cx="382.164"
-        cy="155.029"
-        rx="1.07433"
-        ry="1.07306"
-        transform="translate(-382.164 -155.029) rotate(90 382.164 155.029)"
-        fill="#F46737"
-      >
-        <animateMotion
-          dur="10s"
-          begin="1"
-          repeatCount="indefinite"
-          rotate="auto"
-        >
-          <mpath xlinkHref="#path_0" />
-        </animateMotion>
-      </ellipse>
+      <AnimatedElipse
+        attributes={[
+          "382.164", "155.029", "1.07433", "1.07306",
+          "translate(-382.164 -155.029) rotate(90 382.164 155.029)", "#F46737",]} animate={["10s", "indefinite", "auto", "1",]} mpath="#path_0"
+      />
       <path
         d="M381.81 154.669L356.057 128.885"
         transform="translate(-381.81 -154.669) rotate(-45 381.81 154.669)"
@@ -131,23 +85,11 @@ const BackgroundAnimation = () => (
           <mpath xlinkHref="#path_0" />
         </animateMotion>
       </path>
-      <ellipse
-        cx="333.324"
-        cy="382.691"
-        rx="1.07306"
-        ry="1.07433"
-        transform="translate(-333.324 -382.691) rotate(-180 333.324 382.691)"
-        fill="#F46737"
-      >
-        <animateMotion
-          dur="5s"
-          begin="0"
-          repeatCount="indefinite"
-          rotate="auto"
-        >
-          <mpath xlinkHref="#path_1" />
-        </animateMotion>
-      </ellipse>
+      <AnimatedElipse
+        attributes={[
+          "333.324", "382.691", "1.07306", "1.07433",
+          "translate(-333.324 -382.691) rotate(-180 333.324 382.691)", "#F46737",]} animate={["5s", "indefinite", "auto", "0",]} mpath="#path_1"
+      />
       <path
         d="M333.667 382.335L359.42 356.551"
         transform="scale(-1 1) translate(-333.667 -382.335) rotate(45 333.667 382.335)"
@@ -162,23 +104,11 @@ const BackgroundAnimation = () => (
           <mpath xlinkHref="#path_1" />
         </animateMotion>
       </path>
-      <ellipse
-        cx="165.524"
-        cy="93.9596"
-        rx="1.07306"
-        ry="1.07433"
-        transform="translate(-165.524 -93.9596)"
-        fill="#F46737"
-      >
-        <animateMotion
-          dur="10s"
-          begin="3"
-          repeatCount="indefinite"
-          rotate="auto"
-        >
-          <mpath xlinkHref="#path_0" />
-        </animateMotion>
-      </ellipse>
+      <AnimatedElipse
+        attributes={[
+          "165.524", "93.9596", "1.07306", "1.07433",
+          "translate(-165.524 -93.9596)", "#F46737",]} animate={["10s", "indefinite", "auto", "3",]} mpath="#path_0"
+      />
       <path
         d="M165.182 94.3159L139.429 120.1"
         transform="translate(-165.182 -94.3159) rotate(45 165.182 94.3159)"
@@ -186,30 +116,18 @@ const BackgroundAnimation = () => (
       >
         <animateMotion
           dur="10s"
-          begin="3"
           repeatCount="indefinite"
           rotate="auto"
+          begin="3"
         >
           <mpath xlinkHref="#path_0" />
         </animateMotion>
       </path>
-      <ellipse
-        cx="476.525"
-        cy="363.313"
-        rx="1.07433"
-        ry="1.07306"
-        transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
-        fill="#13ADC7"
-      >
-        <animateMotion
-          dur="12s"
-          begin="4"
-          repeatCount="indefinite"
-          rotate="auto"
-        >
-          <mpath xlinkHref="#path_0" />
-        </animateMotion>
-      </ellipse>
+      <AnimatedElipse
+        attributes={[
+          "476.525", "363.313", "1.07433", "1.07306",
+          "translate(-476.525 -363.313) rotate(90 476.525 363.313)", "#13ADC7",]} animate={["12s", "indefinite", "auto", "4",]} mpath="#path_0"
+      />
       <path
         d="M476.171 362.952L450.417 337.168"
         transform="translate(-476.525 -363.313) rotate(-45 476.171 362.952)"
@@ -217,9 +135,9 @@ const BackgroundAnimation = () => (
       >
         <animateMotion
           dur="12s"
-          begin="4"
           repeatCount="indefinite"
           rotate="auto"
+          begin="4"
         >
           <mpath xlinkHref="#path_0" />
         </animateMotion>
