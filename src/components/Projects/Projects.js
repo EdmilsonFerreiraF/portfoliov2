@@ -7,7 +7,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Img,
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Projetos</SectionTitle>
     <GridContainer>
       {projects
         .map(({
@@ -22,7 +22,6 @@ const Projects = () => (
             </TitleContent>
             <CardInfo>{description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>
