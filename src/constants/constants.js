@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: 'Lama Music',
-    description: "🚀 Um app para você enviar e ouvir as suas músicas favoritas",
+    title: 'CMS Blog',
+    description: "No CMS Blog, você pode criar seu perfil, criar conexões com outros devs, fazer amizades, além de escrever seus próprios posts e interagir com os dos seus amigos",
     image: '/images/1.png',
     tags: ['React', 'NodeJS', 'Typescript', 'HTML', 'CSS'],
     source: 'https://google.com',
