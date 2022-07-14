@@ -5,7 +5,7 @@ export const projects = [
     image: 'images/projects/cms-blog.webp',
     tags: ['React', 'NodeJS', 'Typescript', 'HTML', 'CSS'],
     source: 'https://github.com/EdmilsonFerreiraF/cms-blog',
-    visit: 'https://google.com',
+    visit: 'https://thriving-trifle-d7cdb8.netlify.app/',
     id: 0,
   },
   {
@@ -26,8 +26,6 @@ export const projects = [
     visit: 'https://google.com',
     id: 2,
   },
-
-
   {
     title: 'André Matos Tribute',
     description: "Site sobre o cantor, compositor, maestro, produtor e pianista brasileiro, André Matos.",

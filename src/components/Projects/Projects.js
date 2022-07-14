@@ -31,10 +31,10 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>
+              <ExternalLinks href={source}>
                 Código
               </ExternalLinks>
-              <ExternalLinks href={source}>
+              <ExternalLinks href={visit}>
                 Acessar
               </ExternalLinks>
             </UtilityList>
