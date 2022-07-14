@@ -35,7 +35,7 @@ const Projects = () => (
                 Código
               </ExternalLinks>
               <ExternalLinks href={source}>
-                Fonte
+                Acessar
               </ExternalLinks>
             </UtilityList>
           </BlogCard>
