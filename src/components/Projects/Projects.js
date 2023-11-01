@@ -26,8 +26,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={source}>
-                {visit ? "Código" : "Privado"}
+              <ExternalLinks href={source} locked={!source}>
+                {source ? "Código" : "Privado"}
               </ExternalLinks>
               <ExternalLinks href={visit}>Acessar</ExternalLinks>
             </UtilityList>
