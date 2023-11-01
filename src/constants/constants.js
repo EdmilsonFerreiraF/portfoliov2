@@ -6,7 +6,7 @@ export const projects = [
     image: "images/projects/sigmaflow.webp",
     tags: ["Vite", "Typescript"],
     source: null,
-    visit: "salmon-moss-03d33b110.3.azurestaticapps.net",
+    visit: "https://salmon-moss-03d33b110.3.azurestaticapps.net",
     id: 0,
   },
   {
