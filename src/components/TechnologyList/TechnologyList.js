@@ -7,8 +7,8 @@ const technologyList = [
         React.js</>],
     ["Backend end", <DiFirebase size="3rem" />, <>Experiência com <br />
         NodeJS</>],
-    ["UI", <DiZend size="3rem" />, <>Experiência com <br />
-        Ferramentas como o Figma</>]
+    ["Plataformas em nuvem e hospedagem", <DiZend size="3rem" />, <>Experiência com <br />
+        Azure, Heroku, Firebase, Netlify, Hostinger</>],
 ]
 
 const TechnologyList = () => {

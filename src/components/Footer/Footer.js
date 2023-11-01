@@ -11,8 +11,8 @@ const Footer = () => {
           <LinkTitle>
             Chamar
           </LinkTitle>
-          <LinkItem href="tel:111-111-1111">
-            111-111-1111
+          <LinkItem href="tel:71981111858">
+            (71) 98111-1858
           </LinkItem>
         </LinkColumn>
         <LinkColumn>

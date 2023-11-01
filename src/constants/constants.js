@@ -101,15 +101,18 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Comecei minha jornada" },
-  { year: 2019, text: "Trabalhei como programador web" },
+  {
+    year: 2019,
+    text: "Comecei minha jornada \n Trabalhei como programador web",
+  },
   { year: 2020, text: "Concluí diversos projetos e cursos" },
   { year: 2021, text: "Me formei como desenvolvedor full stack na Labenu" },
+  { year: 2022, text: "Entrei na startup de bi e data science como desenvolvedor front end num projeto médio-grande de uma plataforma de dashboards, cursos e consultoria de bi \n onde faço parte até hoje (2023)" },
 ];
 
 export const AcomplishmentsData = [
   { number: 60, text: "Projetos no Github" },
   { number: 30, text: "Frontend" },
   { number: 30, text: "Backend" },
-  { number: 1, text: "Loja virtual" },
+  { number: 1, text: "Loja virtual e site educacional" },
 ];
