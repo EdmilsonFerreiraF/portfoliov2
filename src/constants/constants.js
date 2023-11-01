@@ -26,7 +26,7 @@ export const projects = [
     image: "images/projects/cms-blog.webp",
     tags: ["React", "NodeJS", "Typescript", "HTML", "CSS"],
     source: "https://github.com/EdmilsonFerreiraF/cms-blog",
-    visit: "https://thriving-trifle-d7cdb8.netlify.app/",
+    visit: "https://lama-social.netlify.app",
     id: 2,
   },
   {
@@ -46,7 +46,7 @@ export const projects = [
     image: "images/projects/social-media.webp",
     tags: ["React", "NodeJS", "Typescript"],
     source: "https://github.com/EdmilsonFerreiraF/react_social_media",
-    visit: "https://google.com",
+    visit: "https://lama-social.netlify.app/login",
     id: 4,
   },
   {
