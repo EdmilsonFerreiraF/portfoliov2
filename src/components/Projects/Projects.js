@@ -26,10 +26,12 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={source} locked={!source}>
+              <ExternalLinks href={source} target="_blank" locked={!source}>
                 {source ? "Código" : "Privado"}
               </ExternalLinks>
-              <ExternalLinks href={visit}>Acessar</ExternalLinks>
+              <ExternalLinks href={visit} target="_blank">
+                Acessar
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         )
